@@ -10,7 +10,7 @@ ___
 # Step 1: Fork this repository
 - The URL of my forked repository: [LAB_1_fork](https://github.com/wesleyyycheah/cis411_lab1_CI)
 - The accompanying diagram of what my fork precisely and conceptually represents:
-![Forking Diagram](forking_diagram.png)
+![Forking Diagram](../assets/forking_diagram.png)
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is: Downloads/GitHub/cis411_lab1_CI
@@ -33,12 +33,48 @@ ___
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-[labreport fa675d0] my commit to the @trevorbunch repo
- 1 file changed, 79 insertions(+)
- create mode 100644 labreports/lab1_report.md
+fa675d0 (HEAD -> labreport, origin/labreport) my commit to the @trevorbunch repo
+9e1d798 (lapreport) my commit to @trevorbunch repo
+1fe415c (origin/main, origin/HEAD, main) Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
+a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
+1ead543 remove LAB.md
+8c38613 Initial commit of labreport with @tangollama
+dabceca Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+e429c1a lab instructions
+ce1fcea circleci default config
+80bbdbb circleci default config
+968099e remove test db
+7362cd1 working
+44ce6ae Initial commit
+(END)
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
-![Feature Branch](feature_branch_diagram.png)
+![Feature Branch](../assets/feature_branch_diagram.png)
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
@@ -58,14 +94,44 @@ More complicated testing.
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
+377fdaa (HEAD -> main, labreport) second commit to the @trevorbunch repo
+fa675d0 (origin/labreport) my commit to the @trevorbunch repo
+9e1d798 (lapreport) my commit to @trevorbunch repo
+1fe415c (origin/main, origin/HEAD) Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
 a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
 8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/main, origin/main, origin/HEAD, main) Merge pull request #24 from tangollama/circleci
+dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
-...
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+e429c1a lab instructions
+ce1fcea circleci default config
+80bbdbb circleci default config
+968099e remove test db
+7362cd1 working
 44ce6ae Initial commit
 (END)
 ```
